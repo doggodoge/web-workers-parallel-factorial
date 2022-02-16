@@ -1,0 +1,28 @@
+{
+  "name": "simple-parallel-factorial",
+  "source": "index.html",
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "version": "1.0.0",
+  "description": "Simple parallel factorial web app using Web Workers",
+  "author": "Gary Moore <madmangaz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/lodash": "^4.14.178",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "parcel": "^2.3.1",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
