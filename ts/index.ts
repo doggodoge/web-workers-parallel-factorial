@@ -70,6 +70,7 @@ function createWorkers(quantity: number): Worker[] {
   return workers;
 }
 
+// TODO: potential for a significant speed improvement here, up to 8%.
 function getRanges(limit: number, processorCount: number): Range[] {
   const chunkSize = Math.abs(limit / processorCount + 1);
   const arr = [...Array(limit).keys()];
