@@ -1,4 +1,6 @@
-# Web Worker Parallel Factorial
+Archived on GitHub and moved to https://git.sr.ht/~gary_moore/web-workers-parallel-factorial
+
+    # Web Worker Parallel Factorial
 
 > Fair warning, this is awful code, written for educational purposes. Really
 > don't use this.
